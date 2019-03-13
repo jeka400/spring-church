@@ -1,0 +1,84 @@
+@import '../_colors';
+
+#gallery {
+    padding: 7em 0;
+}
+
+.galleryItem {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    position: relative;
+}
+
+.image {
+    cursor: zoom-in;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 300px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    color: $tan;
+}
+
+.image {
+    &:hover {
+        text-decoration: none;
+        color: $tan;
+    }
+    &:focus {
+        text-decoration: none;
+    color: $tan;
+    }
+}
+
+.image-1 {
+    background-image: url(../images/image_1.jpg);
+}
+.image-2 {
+    background-image: url(../images/image_2.jpg);
+}
+.image-3 {
+    background-image: url(../images/image_3.jpg);
+}
+.image-4 {
+    background-image: url(../images/image_4.jpg);
+}
+
+.hover {
+    opacity: 1;
+    width: 50px;
+    height: 50px;
+    z-index: 20;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: $tan;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.picture {
+    color: $white;
+}
+
+.picture::before {
+    font-family: 'Font Awesome 5 Brands';
+    font-style: normal;
+    font-weight: 900;
+    line-height: 1;
+    content: '\f16d';
+}
+
+#googleMap {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}

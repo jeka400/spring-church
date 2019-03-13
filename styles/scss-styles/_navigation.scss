@@ -1,0 +1,106 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 300;
+    background: transparent;
+    padding: 0.5rem 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nav-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navbar-brand {
+    font-size: 16px;
+}
+
+.social-list {
+    &.nav-social {
+        margin: 0;
+    }
+}
+
+.social-list.nav-social {
+    .list-group-item {
+        margin-right: 5px !important;
+    }
+}
+
+.social-list.nav-social {
+    .list-group-item {
+        a {
+            span {
+                color: $white;
+                font-size: 20px;
+            }
+        }
+    } 
+} 
+
+.social-list.nav-social {
+    .list-group-item {
+        a {
+            width: 40px;
+            height: 40px;
+        }
+    } 
+} 
+
+.navbar-toggler {
+    &.navbar-toggler {
+        color: $whitekWithOpacity;
+        border: none;
+        text-decoration: none;
+        outline: none;
+        cursor: pointer;
+        font-size: 16px;
+        letter-spacing: .1em;
+    }
+}
+
+.navbar-toggler-icon-white{
+    color: $white;
+}
+
+.navbar-toggler-icon-white::before {
+    font-family: 'Font Awesome 5 Free';
+    font-style: normal;
+    font-weight: 600;
+    content: '\f0c9';
+    
+}
+
+
+.collapse {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: transparent;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 74px;
+    z-index: 200;
+    border-bottom: 1px solid $blackWithOpacity;
+}
+
+.navbar-nav {
+    padding-left: 15px; 
+}
+
+.nav-link {
+    font-size: 15px;
+    padding: .9rem 20px;
+    color: $white;
+    font-weight: 400;
+    cursor: pointer;
+    line-height: 1.8;
+    font-family: "Poppins", Arial, sans-serif;
+}

@@ -1,0 +1,53 @@
+@import '../_colors';
+
+#quote {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+#quote {
+    .container {
+        .row {
+            .col {
+                padding: 3rem;
+            }
+        }
+    }
+}
+
+.qouteText {
+    z-index: 3;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 1.8;
+    color: $black;
+}
+
+.qouteAuthor {
+    color: $tan;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+.col-bible {
+    overflow: hidden;
+}
+
+.bible {
+    position: absolute;
+    top: -30px;
+    left: 0;
+    line-height: 1;
+    font-size: 300px;
+    z-index: 1;
+    color: $blackWithOpacityLighter;
+    overflow: hidden;
+}
+
+.bible::before {
+    font-family: 'Font Awesome 5 Free';
+    font-style: normal;
+    font-weight: 900;
+    content: '\f647';
+    overflow: hidden;
+}

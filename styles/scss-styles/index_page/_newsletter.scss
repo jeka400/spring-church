@@ -1,0 +1,57 @@
+@import '../_colors';
+
+#newsletter {
+    padding-top: 7em;
+    background-color: $darkgray;
+}
+
+#newsletter {
+    div {
+        div {
+            div {
+                p {
+                    color: $white;
+                }
+            }
+        }
+    }
+} 
+
+.col-md-7 {
+    margin: 0 auto;
+}
+
+.subscribe {
+    width: 100%;
+}
+
+.form-group {
+    position: relative;
+    border-radius: 0;
+    margin-bottom: 0;
+    display: flex;
+}
+
+
+.input-group {
+    margin: 0 auto;
+}
+
+.newsInput {
+    color: $blackWithOpacityDarker !important;
+    font-size: 16px;
+    background: white !important;
+    border: 1px solid transparent;
+    height: 52px !important;
+    padding: 0.375rem 0.75rem;
+    border-radius: 5px 0px 0px 5px;
+
+}
+
+.subBtn {
+    background-color: $burlywood;
+    color: $white;
+    border-radius: 0px 5px 5px 0px;
+    font-size: 16px;
+    border: 1px solid transparent;
+}

@@ -1,0 +1,78 @@
+@import '../_colors';
+
+#about {
+    margin-top: 7em;
+}
+
+.about-left {
+    display: grid;
+    align-items: center;
+}
+
+.about-left > .container {
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.statisticsText {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.statistic {
+    text-align: center;
+    padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
+}
+
+.statisticNum {
+    font-weight: 600;
+    font-size: 28px;
+    color: $black;
+    font-family: "Raleway", Arial, sans-serif;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.statisticTxt {
+    display: block;
+    font-size: 14px;
+    color: $blackWithOpacityDarker;
+    margin-bottom: 10px;
+}
+
+.bibleStat {
+    height: 55px;
+    width: 55px;
+    margin-bottom: 20px;
+}
+
+.aboutImg1 {
+    background-image: url(../images/about.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 362px;
+    width: 100%;
+    display: grid;
+    align-items: center;
+    text-align: center;
+}
+
+.aboutImg2 {
+    background-image: url(../images/about-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 362px;
+    width: 100%;
+    display: grid;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.btn-outline-light {
+    background-color: transparent !important;
+    border-radius: 0;
+}

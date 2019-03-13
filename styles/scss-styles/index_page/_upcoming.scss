@@ -1,0 +1,77 @@
+@import '../_colors';
+
+.upcoming-left {
+    padding: 3rem 15px;
+}
+
+.uppcomingImg {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom left;
+}
+
+.upp-im-1 {
+    background-image: url(../images/sermon-1.jpg);
+}
+
+.upp-im-2 {
+    background-image: url(../images/sermon-2.jpg);
+}
+
+.uppcomingText {
+    padding-left: 3rem;
+    display: grid;
+    align-items: center;
+}
+
+.uppBtn {
+    margin-top: 0 !important;
+}
+
+.uppcoming-item {
+    margin-bottom: 30px;
+}
+
+.upcoming-right {
+    background-color: $tan;
+    padding: 3rem calc(3rem + 15px);
+}
+
+.upcoming-right-img {
+    width: 100%;
+    height: 200px;
+    display: block;
+    background-image: url(../images/event-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.upcoming-right-title {
+    color: $white;
+    font-size: 24px;
+    margin-bottom: 1.5rem;
+}
+
+.meta-upcoming {
+    .meta-1 {
+        color: $white !important;
+    }
+}
+
+.upcomingBtn {
+    font-size: 16px;
+    padding: 0.5rem;
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.upcoming-time {
+    color: $white;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+hr {
+    background-color: $white;
+}

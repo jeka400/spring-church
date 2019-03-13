@@ -1,0 +1,97 @@
+@import '../_colors';
+
+#testimony {
+    background-image: url(../images/bg_3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    height: 1142px;
+    position: relative;
+    text-align: center;
+    display: grid;
+    align-items: center;
+}
+
+.testemonyTitle {
+    justify-content: center;
+    padding-bottom: 1rem;
+}
+
+.testemonyH2 {
+    color: $white;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.owl-item{
+    width: 290px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.userImg {
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    position: relative;
+    background-position: top center;
+    background-size: cover;
+    margin: 0 auto 50px auto;
+
+}
+
+.user-1 {
+    background-image: url(../images/person_1.jpg);
+}
+.user-2 {
+    background-image: url(../images/person_2.jpg);
+}
+.user-3 {
+    background-image: url(../images/person_3.jpg);
+}
+.user-4 {
+    background-image: url(../images/person_4.jpg);
+}
+.user-5 {
+    background-image: url(../images/person_5.jpg);
+}
+.user-6 {
+    background-image: url(../images/person_7.jpg);
+}
+.user-6 {
+    background-image: url(../images/person_8.jpg);
+}
+
+.quoteMark {
+    position: absolute;
+    background: $white;
+    color: $tan;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    right: 0;
+    bottom: -10px;
+
+}
+
+.userQuote{
+    color: $white;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.userName {
+    color: $white;
+    font-size: 18px;
+    font-weight: 700;
+    
+}
+
+.userPosition {
+    color: $cornsilk;
+    font-size: 18px;
+    font-family: "Crimson Text", serif;
+    font-style: italic;
+}

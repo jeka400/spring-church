@@ -1,0 +1,119 @@
+#footer {
+    background: $darkgray;
+    padding: 7em 0 4em 0;
+    font-size: 16px;
+}
+
+.footerTitle {
+    font-weight: normal;
+    color: $white;
+    margin-bottom: 40px;
+    font-size: 24px;
+}
+
+.footerText {
+    color: $whitekWithOpacityLighter;
+}
+
+.social-list {
+    margin-top: 3rem;
+    float: left;
+    padding-left: 0;
+    list-style: none; 
+}
+
+.social-icon {
+    justify-content: center;
+}
+
+.list-group-item {
+    list-style: none;
+    margin: 0px 10px 0px 0px !important;
+    border: none;
+    background: transparent;
+    padding: 0;
+}
+
+.list-group-item {
+    a {
+        color: $tan;
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        background: $whitekWithOpacityLight;
+        display: grid;
+        align-items: center;
+        text-align: center;
+    }
+} 
+
+.list-group-item {
+    a {
+        span {
+            width: 100%;
+            height: 100%;
+            color: $tan;
+            font-size: 26px;
+            display: grid;
+            align-items: center;
+            text-align: center;
+        }
+    }
+}
+
+.foooterGroup {
+    margin-left: 3rem;
+}
+
+.footerList {
+    padding-left: 0;
+    list-style: none;
+}
+
+.footerList {
+    li {
+        margin-bottom: 1rem;
+        line-height: 1.8;
+    }
+} 
+
+.footerList {
+    li {
+        a {
+            color: $tan !important;
+            padding-bottom: 0.25rem !important;
+            padding-top: 0.25rem !important;
+        }
+    }
+}
+
+.footer-list-item::before {
+    font-family: 'Font Awesome 5 Free';
+    font-style: normal;
+    font-weight: 900;
+    content: "\f105";
+    padding-right: 1rem;
+}
+
+.serviceHours {
+    color: $whitekWithOpacityDarker;
+    font-size: 22px;
+    font-style: italic;
+    font-family: "Crimson Text", serif;
+}
+
+.footerPar {
+    color: $white;
+    padding-left: 1rem;
+}
+
+.footerPar {
+    span {
+        display: block;
+        line-height: 1.8;
+    }
+} 
+
+.copyright {
+    color: $white;
+}

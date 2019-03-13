@@ -1,0 +1,62 @@
+@import '../_colors';
+
+#blogs {
+    padding: 7em 0;
+}
+
+.blogRow {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+
+.blogImg {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 270px;
+    width: 100%;
+}
+
+.blogImg-1 {
+    background-image: url(../images/image_1.jpg);
+}
+
+.blogImg-2 {
+    background-image: url(../images/image_2.jpg);
+}
+
+.blogImg-3 {
+    background-image: url(../images/image_3.jpg);
+}
+
+.blog-date {
+    background-color: $bisque;
+    width: 100%;
+    padding-top: 1.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.blog-text {
+    padding: 1.5rem;
+}
+
+.blog-date-num {
+    margin-top: 5px;
+    font-size: 50px;
+    font-weight: 300;
+    color: $burlywood;
+    line-height: 1.2;
+}
+
+.blog-date-txt {
+    display: block;
+    color: $tan;
+    font-size: 16px;
+}
+
+.blog-text-title {
+    font-size: 20px;
+    margin-bottom:  16px;
+    margin-top: 0.5rem;
+    font-weight: 400;
+}

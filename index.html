@@ -1,0 +1,835 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Spring</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text:400,400i" rel="stylesheet">
+
+    <!-- <link rel="stylesheet" href="node_modules/owl.carousel/docs/assets/owlcarousel/assets/owl.carousel.css"> -->
+    <!-- <link rel="stylesheet" href="node_modules/owl.carousel/docs/assets/owlcarousel/assets/owl.theme.default.css"> -->
+    <!-- <link rel="stylesheet" href="node_modules/owl.carousel/dist/owl.carousel.min.js"> -->
+    <!-- <link rel="stylesheet" href="node_modules/owl.carousel/dist/assets/owl.theme.default.min.css"> -->
+    <!-- <link rel="stylesheet" href="css/magnific-popup.css"> -->
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/styleIndex.css">
+
+    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.css">
+  </head>
+  <body>
+    <!-- ====================================================     Nav         ===============================================================-->
+    <nav class="navbar  navbar-light">
+        <div class="container">
+            <div class="brand">
+                <a class="navbar-brand" href="#">
+                    <span class="brand-first">SPRING</span>
+                    <span class="brand-second">CHURCH</span>
+                </a>
+            </div>
+                
+            <div class="nav-right">
+                <ul class="social-list nav-social list-group list-group-horizontal">
+                    <li class="list-group-item animate-1">
+                        <a class="navListAncor" href="#">
+                            <span class="social-icon">
+                                <i class="fab fa-twitter"></i>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="list-group-item animate-2">
+                        <a class="navListAncor" href="#">
+                            <span class="social-icon">
+                                <i class="fab fa-facebook-f"></i>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="list-group-item animate-3">
+                        <a class="navListAncor" href="#">
+                            <span class="social-icon">
+                                <i class="fab fa-instagram"></i>
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                    MENU <span class="navbar-toggler-icon-white"></span>
+                </button>
+
+            </div>
+        </div>
+    </nav>
+
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+        <ul class="navbar-nav container mr-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="aboutPage.html">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="ministriesPage.html">Ministries</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="sermonsPage.html">Sermons</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="upcomingEvents.html">Upcoming Events</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="ourBlogPage.html">Blog</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contactPage.html">Contact</a>
+            </li>
+        </ul>
+    </div>
+    
+    <!-- ======================================     Intro       ===============================================================-->
+    <section id="intro">
+        <div class="introWrap">
+
+            <div class="container animate-4">
+                <h1 class="introTitle">Helping Grow Your Faith</h1>
+                <p class="introText">submit your presence to creator of the universe</p>
+                <div class="introButtons">
+                    <a type="button" class="intro-btn-1 btn btn-primary text-uppercase ">new here!</a>
+                    <a type="button" class="intro-btn-2 btn btn-light btn-lg text-uppercase">live stream</a>
+                </div>
+                <div  class="mouse">
+                    <a href="#events" class="mouse-icon">
+                        <div class="mouse-wheel">
+                            <span class="arrow-down">
+                                <i class="fas fa-angle-down"></i>
+                            </span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======================================     Events      ===============================================================-->
+    <section id="events">
+        <div class="eventOverlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-12 upcomingEvents revealer animated">
+                    <h3 class="eventsTitle">
+                        <i class="far fa-calendar-alt"></i> Upcoming events
+                    </h3>
+                    <a href="#">
+                        <h2 class="eventsQoute">
+                            "The Law Demands, but Grace Supplies" - Pastor John Doe
+                        </h2>
+                    </a>
+                </div>
+                <div class="col-md-6 col-12 countdown revealer animated">
+                    <div id="timer" class="mb-1">
+                        <div class="timer-item time" id="days"></div>
+                        <div class="timer-item time" id="hours"></div>
+                        <div class="timer-item time" id="minutes"></div>
+                        <div class="timer-item time" id="seconds"></div>
+                    </div>
+                    <p>
+                        <a href="#" class="joinBtn btn btn-primary">Join our event</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======================================     Quotation   ===============================================================-->
+    <section id="quote" class="bgc">
+        <div class="container">
+            <div class="row">
+                <div class="col col-bible revealer animated">
+                    <span class="bible"></span> 
+                    
+                    <h3 class="qouteText">"16 For God so loved the world, that he gave his only begotten Son,
+                         that whosever beliveth in him should not perish, but have everlasting life."
+                    </h3>
+                    <p class="qouteAuthor"> - John 3:16 KJV</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======================================     Services    ===============================================================-->
+    <section id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 mb-3 revealer animated">
+                    <h2 class="sectionTitle text-uppercase text-center">Spring church services</h2>
+                    <p class="sectionSub text-center">Church Services</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="service revealer animated">
+                        <div class="servicesImg order-lg">
+                            <i class="service-image fas fa-praying-hands"></i>
+                        </div>
+                        <div class="servicesText text-lg">
+                            <h3 class="serviceTitle mb-1">Daily Prayers</h3>
+                            <p class="serviceText">
+                                A small river named Duden flaws by their place and supplies it with necessary regelialia.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="service revealer animated">
+                        <div class="servicesImg order-lg">
+                            <i class="service-image fas fa-bible"></i>
+                        </div>
+                        <div class="servicesText text-lg">
+                            <h3 class="serviceTitle mb-1">Church Community</h3>
+                            <p class="serviceText">
+                                A small river named Duden flaws by their place and supplies it with necessary regelialia.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="service revealer animated">
+                        <div class="servicesImg order-lg">
+                            <i class="service-image fas fa-praying-hands"></i>
+                        </div>
+                        <div class="servicesText text-lg">
+                            <h3 class="serviceTitle mb-1">Teaching</h3>
+                            <p class="serviceText">
+                                A small river named Duden flaws by their place and supplies it with necessary regelialia.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="service revealer animated">
+                        <div class="servicesImg">
+                                <i class="service-image fas fa-church"></i>
+                        </div>
+                        <div class="servicesText">
+                            <h3 class="serviceTitle mb-1">Helpers</h3>
+                            <p class="serviceText">
+                                A small river named Duden flaws by their place and supplies it with necessary regelialia.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="service revealer animated">
+                        <div class="servicesImg">
+                            <i class="service-image fas fa-hands"></i>
+                        </div>
+                        <div class="servicesText">
+                            <h3 class="serviceTitle mb-1">Wedding</h3>
+                            <p class="serviceText">
+                                A small river named Duden flaws by their place and supplies it with necessary regelialia.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="service revealer animated">
+                        <div class="servicesImg">
+                            <i class="service-image fas fa-praying-hands"></i>
+                        </div>
+                        <div class="servicesText">
+                            <h3 class="serviceTitle mb-1">Events</h3>
+                            <p class="serviceText">
+                                A small river named Duden flaws by their place and supplies it with necessary regelialia.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- ======================================     Todays Sermon   ===========================================================-->
+    <section id="sermon" class="bgc">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 mb-3 revealer animated">
+                    <h2 class="sectionTitle text-uppercase text-center">Sermon for today</h2>
+                    <p class="sectionSub text-center">Experience God's Presence</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-12">
+                    <div class="sermonImg"></div>
+                </div>
+                <div class="col-md-6 col-12 sermonText revealer animated">
+                    <h2 class="sermonTitle">Lord is Sufficient for all of our needs</h2>
+                    <div class="meta">
+                        <span class="meta-1">Sermon from: <span class="meta-2">Felix Gonner</span></span>
+                        <span class="meta-1">Categories: <span class="meta-3">God, Pray</span></span>
+                        <span class="meta-1 meta-3">On Sunday 13th Jan, 2019</span>
+                    </div>
+                    <p class="sectionText">
+                        A small river named Duden flows by their place and supplies it with the necessary regelialia. 
+                        It is a paradisematic country, in which roasted parts of sentences fly into your mouth. 
+                        Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
+                    </p>
+                    <div class="row introButtons mt-15">
+                        <div class="col-lg-6 col-12 sermonBtns sermonsBtnFirst">
+                            <a  href="#" class="intro-btn-1 btn btn-primary " type="button">
+                                <i class="fas fa-play"></i> Watch Sermons
+                            </a>
+                        </div>
+                        <div class="col-lg-6 col-12 sermonBtns">
+                            <a  href="#" class="intro-btn-1 btn btn-primary bgBlack " type="button">
+                                <i class="fas fa-download"></i> Download Sermons
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======================================     About Spring Curch      ===================================================-->
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-12 about-left">
+                    <div class="container revealer animated">
+                        <h2 class="sectionTitle text-uppercase mb-15">About spring church</h2>
+                        <p class="sectionText statisticsText">
+                            Far far away, behind word mountains, far from the countries Vakalia and Constanantia
+                        </p>
+                        <div>
+                            <div class="row">
+                                <div class="col-md-6 statistic">
+                                    <img src="./images/bible.png" alt="" class="bibleStat">
+                                    <span class="statisticNum" id="counterMembers">7000</span>
+                                    <span class="statisticTxt">Members</span>
+                                </div>
+                                <div class="col-md-6 statistic">
+                                    <img src="./images/bible.png" alt="" class="bibleStat">
+                                    <span class="statisticNum">1,000</span>
+                                    <span class="statisticTxt">Pastors</span>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 statistic">
+                                    <img src="./images/bible.png" alt="" class="bibleStat">
+                                    <span class="statisticNum">100,000</span>
+                                    <span class="statisticTxt">Donation</span>
+                                </div>
+                                <div class="col-md-6 statistic">
+                                    <img src="./images/bible.png" alt="" class="bibleStat">
+                                    <span class="statisticNum">100</span>
+                                    <span class="statisticTxt">Churches</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12">
+                    <div class="aboutImg1">
+                        <a href="#">
+                            <button type="button" class="btn btn-outline-light btn-lg text-uppercase">Sunday services</button>
+                        </a> 
+                    </div>
+                    <div class="aboutImg2">
+                        <a href="#">
+                            <button type="button" class="btn btn-outline-light btn-lg text-uppercase">Announcement</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======================================     Testimony   ===============================================================-->
+    <section id="testimony">
+        <div class="introWrap"></div>
+        <div class="container">
+            <div class="row testemonyTitle mb-3">
+                <div class="col-md-7 revealer animated">
+                    <h2 class="testemonyH2 text-uppercase">Inspirational testemony</h2>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                
+                    <div id="carouselExampleIndicators" class="carousel slide carousel-testimony" data-ride="false">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        </ol>
+
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="owl-item">
+                                    <div class="userImg user-1">
+                                        <span class="quoteMark">
+                                            <i class="fas fa-quote-left"></i>
+                                        </span>
+                                    </div>
+                                    <div class="userText">
+                                        <p class="userQuote mb-15">
+                                            Far far away, behind the word mountains, 
+                                            far from the countries Vokalia and Consonantia, there live the blind texts.
+                                        </p>
+                                        <p class="userName text-uppercase">Artur Browner</p>
+                                        <spn class="userPosition">Member</spn>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item">
+                                <div class="owl-item">
+                                    <div class="userImg user-2">
+                                        <span class="quoteMark">
+                                            <i class="fas fa-quote-left"></i>
+                                        </span>
+                                    </div>
+                                    <div class="userText">
+                                        <p class="userQuote mb-15">
+                                            Far far away, behind the word mountains, 
+                                            far from the countries Vokalia and Consonantia, there live the blind texts.
+                                        </p>
+                                        <p class="userName text-uppercase">Artur Browner</p>
+                                        <spn class="userPosition">Member</spn>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item">
+                                <div class="owl-item">
+                                    <div class="userImg user-3">
+                                        <span class="quoteMark">
+                                            <i class="fas fa-quote-left"></i>
+                                        </span>
+                                    </div>
+                                    <div class="userText">
+                                        <p class="userQuote mb-15">
+                                            Far far away, behind the word mountains, 
+                                            far from the countries Vokalia and Consonantia, there live the blind texts.
+                                        </p>
+                                        <p class="userName text-uppercase">Artur Browner</p>
+                                        <spn class="userPosition">Member</spn>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ======================================     Upcoming Events       =====================================================-->
+    <section id="upcoming">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 upcoming-left">
+                    <div class="row">
+                        <div class="col-12 revealer animated">
+                            <h2 class="sectionTitle text-uppercase mb-15">Upcoming events</h2>
+                            <p class="sectionSub text-center">Experience God's Presence</p>
+                        </div>
+                    </div>
+                    <div class="row uppcoming-item">
+                        <div class="col-md-5  ">
+                            <div class="upp-im-1 uppcomingImg"></div>
+                        </div>
+                        <div class="col-md-7 uppcomingText revealer animated">
+                            <div>
+                                <h2 class="sermonTitle">Know Jesus Christ Better Through Lines</h2>
+                                <div class="meta">
+                                    <span class="meta-1">
+                                        <i class="fas fa-calendar-alt"></i> Monday, 8:00 Am - Tuesday, 8:00Pm
+                                    </span>
+                                    <span class="meta-1 meta-3">
+                                        <i class="fas fa-bullseye"></i> Spring Church
+                                    </span>
+                                    <span class="meta-1">
+                                        <i class="fas fa-city"></i> 203 Fake St.Mountain View, San Francisco, California, USA
+                                    </span>
+                                </div>
+                                <a href="#" type="button" class="uppBtn joinBtn intro-btn-1 btn btn-primary">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                            <div class="col-md-5 ">
+                                <div class="upp-im-2 uppcomingImg"></div>
+                            </div>
+                            <div class="col-md-7 uppcomingText revealer animated">
+                                <div>
+                                    <h2 class="sermonTitle">Know Jesus Christ Better Through Lines</h2>
+                                    <div class="meta">
+                                        <span class="meta-1">
+                                            <i class="fas fa-calendar-alt"></i> Monday, 8:00 Am - Tuesday, 8:00Pm
+                                        </span>
+                                        <span class="meta-1 meta-3">
+                                            <i class="fas fa-bullseye"></i> Spring Church
+                                        </span>
+                                        <span class="meta-1">
+                                            <i class="fas fa-city"></i> 203 Fake St.Mountain View, San Francisco, California, USA
+                                        </span>
+                                    </div>
+                                    <a href="#" type="button" class="uppBtn joinBtn intro-btn-1 btn btn-primary">Read more</a>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+                <div class="col-lg-4 upcoming-right">
+                    <div class="upcoming-inner">
+                        <h2 class="userName text-uppercase mb-3 revealer animated">Recent sermons</h2>
+                        <div class="upcoming-right-img mb-1 revealer animated"></div>
+                        <h1 class="upcoming-right-title revealer animated">Lord is Sufficient for all of our needs</h1>
+                        <div class="meta-upcoming revealer animated">
+                            <span class="meta-1">Sermon from: Felix Gonner</span>
+                            <span class="meta-1">Categories: God, Pray</span>
+                            <span class="meta-1">On Sunday 13th Jan, 2019</span>
+                        </div>
+                        <a href="#" class="revealer animated">
+                            <button type="button" class="btn btn-outline-light  text-uppercase upcomingBtn">
+                                <i class="fas fa-play"></i> Watch Sermons
+                            </button>
+                        </a>
+                        <a href="#" class="revealer animated">
+                            <button type="button" class="btn btn-outline-light text-uppercase upcomingBtn">
+                                <i class="fas fa-download"></i> Download Sermons
+                            </button>
+                        </a>
+
+                        <h1 class="upcoming-right-title revealer animated">
+                            <i class="fas fa-play"></i> Fruit of the Spirit
+                        </h1>
+                        <span class="upcoming-time"> 20:30 mins</span>
+                        <hr>
+
+                        <h1 class="upcoming-right-title revealer animated">
+                            <i class="fas fa-play"></i> Fruit of the Spirit
+                        </h1>
+                        <span class="upcoming-time"> 20:30 mins</span>
+                        <hr>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======================================     Recent Blog       =========================================================-->
+    <section id="blogs">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 revealer animated">
+                    <h2 class="sectionTitle text-uppercase mb-15 text-center">Recent Blog</h2>
+                    <p class="sectionSub text-center">Our Blog</p>
+                </div>
+            </div>
+            <div class="row revealer animated">
+                <div class="col-lg-4">
+                    <div class="blogImg blogImg-1"></div>
+                    <div class="row blogRow">
+                        <div class="col-md-4 blog-date text-center">
+                            <span class="blog-date-num">18</span>
+                            <span class="blog-date-txt">January</span>
+                            <span class="blog-date-txt">2019</span>
+                        </div>
+                        <div class="col-md-8 blog-text">
+                            <h2 class="blog-text-title">All you want to know about Bible</h2>
+                            <p class="sectionText">
+                                A small river named Duden flows by their place and supplies it with the necessary regelialia.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="blogImg blogImg-2"></div>
+                    <div class="row blogRow">
+                        <div class="col-md-4 blog-date text-center">
+                            <span class="blog-date-num">15</span>
+                            <span class="blog-date-txt">January</span>
+                            <span class="blog-date-txt">2019</span>
+                        </div>
+                        <div class="col-md-8 blog-text">
+                            <h2 class="blog-text-title">All you want to know about Bible</h2>
+                            <p class="sectionText">
+                                A small river named Duden flows by their place and supplies it with the necessary regelialia.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="blogImg blogImg-3"></div>
+                    <div class="row blogRow">
+                        <div class="col-md-4 blog-date text-center">
+                            <span class="blog-date-num">14</span>
+                            <span class="blog-date-txt">January</span>
+                            <span class="blog-date-txt">2019</span>
+                        </div>
+                        <div class="col-md-8 blog-text">
+                            <h2 class="blog-text-title">All you want to know about Bible</h2>
+                            <p class="sectionText">
+                                A small river named Duden flows by their place and supplies it with the necessary regelialia.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ======================================     Gallery & Map       =======================================================-->
+    <section id="gallery">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-6 galleryItem revealer animated">
+                            <a href="/images/image_1.jpg" class="image image-1" >
+                                <div class="hover hide">
+                                    <span class="picture"></span>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="col-md-6 galleryItem revealer animated">
+                            <a href="/images/image_1.jpg" class="image image-2" >
+                                <!-- <div class="mb-15 hover hide">
+                                    <span class="picture"></span>
+                                </div> -->
+                            </a>
+                        </div>
+                        <div class="col-md-6 galleryItem revealer animated">
+                            <a href="/images/image_1.jpg" class="image image-3" >
+                                <!-- <div class="mb-15 hover hide">
+                                    <span class="picture"></span>
+                                </div> -->
+                            </a>
+                        </div>
+                        <div class="col-md-6 galleryItem revealer animated">
+                            <a href="/images/image_1.jpg" class="image image-4" >
+                                <!-- <div  class="mb-15 hover hide">
+                                    <span class="picture"></span>
+                                </div> -->
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 map">
+                    <div id="googleMap"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======================================     Newsletter       ==========================================================-->
+    <section id="newsletter">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7 text-center">
+                    <h2 class="testemonyH2 text-uppercase revealer animated">Newsletter</h2>
+                    <p class="sectionText revealer animated">
+                        Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, 
+                        there live the blind texts. Separated they live in
+                    </p>
+
+                    <div class="row revealer animated">
+                        <div class="col-md-8 input-group mb-3">
+                            <form action="#" class="subscribe">
+                                <div class="form-group">
+                                    <input type="text" class="newsInput form-control" placeholder="Enter email address" aria-label="Recipient's username" aria-describedby="button-addon2">
+                                    <div class="input-group-append">
+                                        <button class="subBtn btn btn-outline-secondary" type="button" id="button-addon2">Subscribe</button>
+                                    </div>
+                                </div>        
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- ======================================     Footer       ==========================================================-->
+
+    <footer id="footer">
+        <div class="container">
+            <div class="row mb-3">
+                <div class="col-md col-12">
+                    <div class="mb-15">
+                        <h2 class="footerTitle">Spring Church</h2>
+                        <p class="sectionText footerText mb-1">
+                            Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+                        </p>
+                        <ul class="social-list mb-1 list-group list-group-horizontal">
+                            <li class="list-group-item si-1">
+                                <a href="#">
+                                    <span class="social-icon">
+                                        <i class="fab fa-twitter"></i>
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="list-group-item si-2">
+                                <a href="#">
+                                    <span class="social-icon">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="list-group-item si-3">
+                                <a href="#">
+                                    <span class="social-icon">
+                                        <i class="fab fa-instagram"></i>
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                </div>
+
+                <div class="col-md">
+                    <div class="mb-15 foooterGroup">
+                        <h2 class="footerTitle">About</h2>
+                        <ul class="footerList">
+                            <li>
+                                <a href="#">
+                                    <span class="footer-list-item">Staff</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="footer-list-item">Beliefs</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="footer-list-item">History</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="footer-list-item">Mission</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="footer-list-item">Wedding & Funerals</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="footer-list-item">Jobs & Internship</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="footer-list-item">Fellowships</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md">
+                    <div class="mb-15 foooterGroup">
+                        <h2 class="footerTitle">Connect</h2>
+                        <ul class="footerList">
+                            <li>
+                                <a href="#">
+                                    <span class="footer-list-item">Home Groups</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="footer-list-item">Recovery Groups</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="footer-list-item">Memberships</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="footer-list-item">Volunteer</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="footer-list-item">Assistance</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md">
+                    <div class="mb-15">
+                        <h2 class="footerTitle">Service Hours</h2>
+                        <h4 class="serviceHours">Service Hours</h4>
+                        <p class="footerPar">
+                            <span class="mb-1">Saturday Prayer Meeting — 10:00 am to 11:30 am</span>
+                            <span>Sunday Service — 8:30 am to 11:30 am</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="copyright text-center">
+                        Copyright ©2019 All rights reserved | This template is made with love
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+  
+    
+
+
+    <!-- <script src="node_modules/owl.carousel/dist/owl.carousel.min.js"></script> -->
+    <!-- <script src="bower_components/owl.carousel/dist/owl.carousel.min.js"></script> -->
+   
+
+    <!-- <script src="node_modules/owl.carousel/src/js/"></script> -->
+    <!-- <script src="node_modules/owl.carousel/docs/assets/js/app.js"></script> -->
+    <!-- <script src="node_modules/owl.carousel/docs/assets/owlcarousel/owl.carousel.js"></script> -->
+
+    
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyABt-V0gVtx68gPMjnhTZ39UsxgsX5_Di8&callback=myMap" type="text/javascript"></script>
+
+    <script src="node_modules/@fortawesome/fontawesome-free/js/all.js"></script>
+
+    <!-- <script src="node_modules/jquery/dist/jquery.js"></script> -->
+
+    
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script> -->
+    
+    
+    <!-- <script src="js/jquery.magnific-popup.min.js"></script> -->
+    <script src="script.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+  </body>
+</html>
